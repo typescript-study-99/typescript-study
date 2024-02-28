@@ -24,7 +24,7 @@ var Direction;
 ```
 
 <details>
-<summary>Q: 타입스크립트에서 <pre style="display:inline;">console.log(Direction)</pre>의 값은?</summary>
+<summary>Q: 타입스크립트에서 "console.log(Direction)"의 값은?</summary>
 
 ```console
 {
@@ -45,7 +45,7 @@ var Direction;
 <summary>
 추가 문제
 </summary>
-Q: 그렇다면, <pre style="display:inline;">type DirectionType = keyof typeof Direction;</pre> 해당 DirectionType의 타입 추론 결과는?
+Q: 그렇다면, "type DirectionType = keyof typeof Direction;" 해당 DirectionType의 타입 추론 결과는?
 
 <details>
 <summary>
@@ -57,6 +57,8 @@ Q: 그렇다면, <pre style="display:inline;">type DirectionType = keyof typeof 
 </details>
 
 </details>
+
+---
 
 ```ts
 let dir = Direction.Up;
@@ -103,6 +105,8 @@ const ODirection = {
 //^? 타입 단언
 </pre>
 </details>
+
+---
 
 참고자료: (1) 승귤 on X: "우아한 타입스크립트 보고 있는데, enum을 사용하는 이유도 사용하지 않는 이유도 납득이 간드 https://t.co/LmWH8w6Rhr" / X](https://twitter.com/wapj2000/status/1722924411114889322/photo/1)
 
